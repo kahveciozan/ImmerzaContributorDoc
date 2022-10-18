@@ -75,5 +75,12 @@ Immerza were created using the Unity3D Game Engine
 - Don't use canvas and UI objects.
 - Disable hands and controllers.
 
-## Requerements
-- 
+## Requirements
+- Consider the requirements of the category you choose. psychology documents below.
+ > - [FOCUS](https://forms.gle/XvepfJQD45Uu37mT7) <br/>
+ > - [CALM](https://forms.gle/XvepfJQD45Uu37mT7) <br/>
+ > - [EXCITEMENT](https://forms.gle/XvepfJQD45Uu37mT7) <br/>
+
+- [Consider the COLOUR & LIGHTING](https://forms.gle/XvepfJQD45Uu37mT7) <br/>
+- [Consider the Sound & Music](https://forms.gle/XvepfJQD45Uu37mT7) <br/>
+- [Consider the Mindfulness Principles](https://forms.gle/XvepfJQD45Uu37mT7) <br/>
