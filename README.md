@@ -14,9 +14,9 @@ Immerza is a meditation application that aims to be published first on Applab(Si
 Immerza were created using the Unity3D Game Engine
 
 ## How To Create a New Scene and Environment. (You can upload scene in 3 basic steps)
-A. Create and develop your scene in your own project. (Use Unity Version 2021.3.11.X)  <br/>
-B. Build the scene with Addressables.  <br/>
-C. Upload files to the website respectively.  <br/>
+**A. Create and develop your scene in your own project. (Use Unity Version 2021.3.11.X)**  <br/>
+**B. Build the scene with Addressables.**  <br/>
+**C. Upload files to the website respectively.**  <br/>
 
 ### A. Creating and Development in Unity Step by Step
 
@@ -42,13 +42,19 @@ C. Upload files to the website respectively.  <br/>
 
 ### B. Built with Addressables
 
-1. Add Addressables library(Addressable Version 1.19.11.) to your unity project. This is very important. Otherwise there may be problems loading the scenes.
-2. Build the scene with Addressable Default Build.
-3. Addressables will give 4 files (two .bundle, one json and hash file)
-4. Upload these 4 files to the website respectively.
+1. Go to Unity Package Manager and import Addressables library(Addressable Version 1.19.11.) to your unity project. This is very important. Otherwise there may be problems loading the scenes. 
+
+![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
+
+2. Set the Group Settings ![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
+3. Set the Profiles Settings ![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
+4. sadasd 
+5. Build the scene with Addressable Default Build.
+6. Addressables will give 4 files (two .bundle, one json and hash file)
+7. Upload these 4 files to the website respectively.
 
 ### C. Uploading .bunle files to the website
-1. Go to [website](https://contributor.immerza.com/)
+1. Go to [Immerza Contributor Website](https://contributor.immerza.com/)
 2. Upload these 4 files to the website respectively.
 3. Add title and descriptionon website.
 4. You can update the scene whenever you want.
