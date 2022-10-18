@@ -1,5 +1,5 @@
 # Contributor Documentation IMMERZA VR
-This document is prepared as a roadmap for designers and developers who want to contribute to the Immerza vr application
+This document is prepared as a roadmap for designers and developers who want to contribute to the IMMERZA VR application
 
 Meditation App for Oculus Quest 2 
 ![Error](https://github.com/kahveciozan/LaylaVR/blob/public/Assets/Sprites/LaylaLogo.png)
