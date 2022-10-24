@@ -41,13 +41,10 @@ Immerza were created using the Unity3D Game Engine
 
 ### B. Built with Addressables
 
-1. Go to Unity Package Manager and import Addressables library(Addressable Version 1.19.11.) to your unity project. This is very important to avoid problems loading the scenes. 
-
-![This is an image](...)
-
-2. Set the Group Settings ![This is an image](...)
-3. Set the Profiles Settings ![This is an image](...)
-4. sadasd 
+1. Go to Unity Package Manager and import Addressables library(Addressable Version 1.19.11.) to your unity project. This is very important to avoid problems loading the scenes.
+2. Set the Group Settings ![This is an image](https://github.com/kahveciozan/ImmerzaContributorDoc/blob/main/AddressableGroupsAndSettings.png)
+3. Set the Profiles Settings ![This is an image](https://github.com/kahveciozan/ImmerzaContributorDoc/blob/main/AddressableProfiles.png)
+4. ... will be update
 5. Build the scene with Addressable Default Build.
 6. Addressables will give 4 files (two .bundle, one json and hash file)
 7. Upload these 4 files to the website respectively.
