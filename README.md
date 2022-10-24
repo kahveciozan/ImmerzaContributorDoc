@@ -1,5 +1,5 @@
 # Contributor Documentation IMMERZA VR
-This document is prepared as a roadmap for designers and developers who want to contribute to the IMMERZA VR application
+This document is guides designers and developers to contribute to the IMMERZA VR application
 
 Meditation App for Oculus Quest 2 
 ![Error](https://github.com/kahveciozan/ImmerzaContributorDoc/blob/main/Immerza.png)
@@ -10,7 +10,6 @@ Immerza is a meditation application that aims to be published first on Applab(Si
 ### [Immerza Contributor Website](https://contributor.immerza.com/)
 
 # Guidelines for Creating Content IMMERZA. Be a Contibutor.
-[Click here to become a contributor](https://forms.gle/XvepfJQD45Uu37mT7) <br/>
 Immerza were created using the Unity3D Game Engine
 
 ## How To Create a New Scene and Environment. (You can upload scene in 3 basic steps)
@@ -42,7 +41,7 @@ Immerza were created using the Unity3D Game Engine
 
 ### B. Built with Addressables
 
-1. Go to Unity Package Manager and import Addressables library(Addressable Version 1.19.11.) to your unity project. This is very important. Otherwise there may be problems loading the scenes. 
+1. Go to Unity Package Manager and import Addressables library(Addressable Version 1.19.11.) to your unity project. This is very important to avoid problems loading the scenes. 
 
 ![This is an image](...)
 
@@ -67,7 +66,6 @@ Immerza were created using the Unity3D Game Engine
 [DOTween(HOTween v2)](https://assetstore.unity.com/packages/tools/visual-scripting/dotween-pro-32416) <br/>
 
 ## Requirements, Consept and Categories
-- Be careful not to be too similar to scenes that have been made before. <br/>
 - Make sure the gameplay length is longer than 3 minutes and less than 12 minutes.
 -  Decide what category your target scene will be in. There are 3 category offers from the team but you can feel free either to add a new category or contribute a stage in one existing category. Consider the requirements of the category you choose. psychology documents below.
  > - [FOCUS](https://forms.gle/XvepfJQD45Uu37mT7) <br/>
