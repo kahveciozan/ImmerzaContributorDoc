@@ -32,8 +32,12 @@ Immerza were created using the Unity3D Game Engine
 > * Build Settings > Texture Compression : ASTC
 > * Project Settings > Player > Other Settings > Graphics APIs : Remove Vulkan
 > * Project Settings > Player > Other Settings > Target API Level : API Level 23
-
-4. Change the Camera
+> * Project Settings > XR Plug-in Managemnet > ....
+ >> * Android Settings : Click Oculus
+ >> * Windows Settings : Click Oculus
+ >> * Server Settings : Click Oculus
+ ![This is an image](https:/)
+4. Change the Camera :
 > * In Hierarchy, Right click > XR > Convert Main Camera To XR Rig
 
 5. If you have import oculus sdk. Add  `OculusInteractionSampleRig.prefab` to Hierarchy. This prefab includes some particle effects(virtual breahing etc.)
@@ -42,25 +46,36 @@ Immerza were created using the Unity3D Game Engine
 ### B. Built with Addressables
 
 1. Go to Unity Package Manager and import Addressables library(Addressable Version 1.19.11.) to your unity project. This is very important to avoid problems loading the scenes.
+2. Server Path configuration : Click Windows > Asset Managemnet > Addressables > Settings
+> * In Hierarchy, Content Update > BuildLoad Paths : Remote 
+> * In Hierarchy, Content Update > Built Path : ServerData/Android
+> * In Hierarchy, Content Update > Load Path : http://...
+![This is an image](https:/)
+
 2. Set the Group Settings ![This is an image](https://github.com/kahveciozan/ImmerzaContributorDoc/blob/main/AddressableGroupsAndSettings.png)
 3. Set the Profiles Settings ![This is an image](https://github.com/kahveciozan/ImmerzaContributorDoc/blob/main/AddressableProfiles.png)
 4. ... will be update
-5. Build the scene with Addressable Default Build.
-6. Addressables will give 4 files (two .bundle, one json and hash file)
+5. Build the scene with Addressable Default Build.![This is an image](https:/)
+6. Addressables will give 4 files (two .bundle, one json and hash file)![This is an image]![This is an image](https:/)
 7. Upload these 4 files to the website respectively.
 
 ### C. Uploading .bunle files to the website
 1. Go to [Immerza Contributor Website](https://contributor.immerza.com/)
 2. Upload these 4 files to the website respectively.
+> * Find from file location in order. (Go to ...YourUnityProjectRootFile/ServerData)
+> * Upload file in order to website.
 3. Add title and descriptionon website.
-4. You can update the scene whenever you want.
+4. Upload tehe scene.
+
+Thats all.
+
+You can delete the scene at any time or edit it and upload it again
 
 
 # Development Tools and SDKs
 [Unity3D Game Engine](https://unity.com/) <br/>
 [Oculus Integration SDK](https://assetstore.unity.com/packages/tools/integration/oculus-integration-82022) <br/>
 [Adressable Version 1.19.11.] <br/>
-[DOTween(HOTween v2)](https://assetstore.unity.com/packages/tools/visual-scripting/dotween-pro-32416) <br/>
 
 ## Requirements, Consept and Categories
 - Make sure the gameplay length is longer than 3 minutes and less than 12 minutes.
