@@ -57,11 +57,11 @@ Immerza were created using the Unity3D Game Engine
 4. ... will be update
 5. Build the scene with Addressable Default Build.![This is an image](https:/)
 6. Addressables will give 4 files (two .bundle, one json and hash file)![This is an image]![This is an image](https:/)
-7. Upload these 4 files to the website respectively.
+7. Upload these 4 files to the website respectively.![This is an image](https://github.com/kahveciozan/ImmerzaContributorDoc/blob/main/Img/AddressableBuiiltScene.png)
 
 ### C. Uploading .bunle files to the website
 1. Go to [Immerza Contributor Website](https://contributor.immerza.com/)
-2. Upload these 4 files to the website respectively.
+2. Upload these 4 files to the website respectively. >  * ![This is an image](https://github.com/kahveciozan/ImmerzaContributorDoc/blob/main/Img/BuiltFiles.png)
 > * Find from file location in order. (Go to ...YourUnityProjectRootFile/ServerData)
 > * Upload file in order to website.
 3. Add title and descriptionon website.
