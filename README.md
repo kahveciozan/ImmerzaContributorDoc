@@ -32,11 +32,11 @@ Immerza were created using the Unity3D Game Engine
 > * Build Settings > Texture Compression : ASTC
 > * Project Settings > Player > Other Settings > Graphics APIs : Remove Vulkan
 > * Project Settings > Player > Other Settings > Target API Level : API Level 23
-> * Project Settings > XR Plug-in Managemnet > ....
+> * Project Settings > XR Plug-in Managemnet > ![This is an image](https://github.com/kahveciozan/ImmerzaContributorDoc/blob/main/Img/XRPlug%C4%B0nManagagement.png)
  >> * Android Settings : Click Oculus
  >> * Windows Settings : Click Oculus
  >> * Server Settings : Click Oculus
- ![This is an image](https:/)
+ ![This is an image](https://github.com/kahveciozan/ImmerzaContributorDoc/blob/main/Img/XRDetailsForOculus.png)
 4. Change the Camera :
 > * In Hierarchy, Right click > XR > Convert Main Camera To XR Rig
 
@@ -50,7 +50,7 @@ Immerza were created using the Unity3D Game Engine
 > * In Hierarchy, Content Update > BuildLoad Paths : Remote 
 > * In Hierarchy, Content Update > Built Path : ServerData/Android
 > * In Hierarchy, Content Update > Load Path : http://...
-![This is an image](https:/)
+![This is an image](https://github.com/kahveciozan/ImmerzaContributorDoc/blob/main/Img/AddressagleSettings.png)
 
 2. Set the Group Settings ![This is an image](https://github.com/kahveciozan/ImmerzaContributorDoc/blob/main/AddressableGroupsAndSettings.png)
 3. Set the Profiles Settings ![This is an image](https://github.com/kahveciozan/ImmerzaContributorDoc/blob/main/AddressableProfiles.png)
