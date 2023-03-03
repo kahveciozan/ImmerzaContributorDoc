@@ -13,7 +13,7 @@ Immerza is a meditation application that aims to be published first on Applab(Si
 Immerza were created using the Unity3D Game Engine
 
 ## How To Create a New Scene and Environment. (You can upload scene in 3 basic steps)
-**A. Create and develop your scene in your own project. (Use Unity Version 2021.3.11.X)**  <br/>
+**A. Create and develop your scene in your own project. (Use Unity Version 2021.3.XX.X)**  <br/>
 **B. Build the scene with Addressables.**  <br/>
 **C. Upload files to the website respectively.**  <br/>
 
@@ -27,50 +27,63 @@ Immerza were created using the Unity3D Game Engine
 > * Files > Build Settings (Ctrl+Shift+B)
 > * Select Android
 > * Click the Switch Platform Button.
+> * Texture Compression : ASTC
 
-3. Project Setting
-> * Build Settings > Texture Compression : ASTC
+3. Click Project Setting.
+> * Project Settings > Player > Other Settings > Deselect Auto Graphics API
 > * Project Settings > Player > Other Settings > Graphics APIs : Remove Vulkan
 > * Project Settings > Player > Other Settings > Target API Level : API Level 23
-> * Project Settings > XR Plug-in Managemnet > ![This is an image](https://github.com/kahveciozan/ImmerzaContributorDoc/blob/main/Img/XRPlug%C4%B0nManagagement.png)
+> * Project Settings > XR Plug-in Managemnet > Click Install Plugin Management ![This is an image](https://github.com/kahveciozan/ImmerzaContributorDoc/blob/main/Img/XRPlug%C4%B0nManagagement.png)
  >> * Android Settings : Click Oculus
  >> * Windows Settings : Click Oculus
  >> * Server Settings : Click Oculus
  ![This is an image](https://github.com/kahveciozan/ImmerzaContributorDoc/blob/main/Img/XRDetailsForOculus.png)
+ 
+4. Create new scene. And name it like this Yourname-Scenename. Example: Actimi-AboveTheClouds
 4. Change the Camera :
 > * In Hierarchy, Right click > XR > Convert Main Camera To XR Rig
+5. Now you can desing your original scene. You can add our ready-mate exercises to your own scene. [Prefabs](https://www.exampleprefab.com)
 
-5. If you have import oculus sdk. Add  `OculusInteractionSampleRig.prefab` to Hierarchy. This prefab includes some particle effects(virtual breahing etc.)
-6. Now you can desing your original scene. You can add our ready-mate exercises to your own scene. [Prefabs](https://www.exampleprefab.com)
+### B. Built Your Scene with Addressables
 
-### B. Built with Addressables
+1. Go to Windows > Package Manager. Choose and import Addressables library(Addressable Version 1.19.19.) to your unity project. This is very important to avoid problems loading the scenes. ***IMAGE***
 
-1. Go to Unity Package Manager and import Addressables library(Addressable Version 1.19.11.) to your unity project. This is very important to avoid problems loading the scenes.
-2. Server Path configuration : Click Windows > Asset Managemnet > Addressables > Settings
-> * In Hierarchy, Content Update > BuildLoad Paths : Remote 
-> * In Hierarchy, Content Update > Built Path : ServerData/Android
-> * In Hierarchy, Content Update > Load Path : http://...
-![This is an image](https://github.com/kahveciozan/ImmerzaContributorDoc/blob/main/Img/AddressagleSettings.png)
+2. Addressable Settings.
+> * Click Windows > Asset Managemnet > Addressables > Groups. 
+ >> * Click Create Addressables Settings
+ 
+> * Click Windows > Asset Management > Profiles
+ >> * Local : Editor Hosted
+ >> * Remote : Editor Hosted ![This is an image](https://github.com/kahveciozan/ImmerzaContributorDoc/blob/main/AddressableGroupsAndSettings.png)
+ 
+> * Click Windows > Asset Management > Settings
+ >> * Click Build Remore Catalog
+ >> * Build & Load Paths : Remote
+ >> * Path Preview
+ >>> * Built Path:
+ >>> * Load PAth: ![This is an image](https://github.com/kahveciozan/ImmerzaContributorDoc/blob/main/AddressableGroupsAndSettings.png)
 
-2. Set the Group Settings ![This is an image](https://github.com/kahveciozan/ImmerzaContributorDoc/blob/main/AddressableGroupsAndSettings.png)
-3. Set the Profiles Settings ![This is an image](https://github.com/kahveciozan/ImmerzaContributorDoc/blob/main/AddressableProfiles.png)
-4. ... will be update
-5. Build the scene with Addressable Default Build.![This is an image](https:/)
+4. Scene build with Addressable.
+ > * Open Addressable Group. Windows > Click Windows > Asset Managemnet > Addressables > Groups
+ > * Drag and Drop your scene to Default Local Group.
+ > * Click Build > New Build > Default Build Script 
+ ![This is an image](https://github.com/kahveciozan/ImmerzaContributorDoc/blob/main/AddressableGroupsAndSettings.png)
+ 
 6. Addressables will give 4 files (two .bundle, one json and hash file)![This is an image]![This is an image](https:/)
-7. Upload these 4 files to the website respectively.![This is an image](https://github.com/kahveciozan/ImmerzaContributorDoc/blob/main/Img/AddressableBuiiltScene.png)
 
-### C. Uploading .bunle files to the website
+7. We can upload these 4 files to the website respectively.![This is an image](https://github.com/kahveciozan/ImmerzaContributorDoc/blob/main/Img/AddressableBuiiltScene.png)
+
+### C. Uploading .bundle files to the website
 1. Go to [Immerza Contributor Website](https://contributor.immerza.com/)
 2. Upload these 4 files to the website respectively. >  * ![This is an image](https://github.com/kahveciozan/ImmerzaContributorDoc/blob/main/Img/BuiltFiles.png)
 > * Find from file location in order. (Go to ...YourUnityProjectRootFile/ServerData)
 > * Upload file in order to website.
 3. Add title and descriptionon website.
-4. Upload tehe scene.
+4. Upload the scene.
 
 Thats all.
 
 You can delete the scene at any time or edit it and upload it again
-
 
 # Development Tools and SDKs
 [Unity3D Game Engine](https://unity.com/) <br/>
