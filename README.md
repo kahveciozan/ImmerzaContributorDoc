@@ -46,7 +46,7 @@ Immerza were created using the Unity3D Game Engine
 
 ### B. Built Your Scene with Addressables
 
-1. Go to Windows > Package Manager. Choose and import Addressables library(Addressable Version 1.19.19.) to your unity project. This is very important to avoid problems loading the scenes. ***IMAGE***
+1. Go to Windows > Package Manager. Choose and import Addressables library(Addressable Version 1.19.19.) to your unity project. This is very important to avoid problems loading the scenes. ![This is an image](https://github.com/kahveciozan/ImmerzaContributorDoc/blob/main/Img2/AddressablesInstall.png)
 
 2. Addressable Settings.
 > * Click Windows > Asset Managemnet > Addressables > Groups. 
@@ -54,24 +54,24 @@ Immerza were created using the Unity3D Game Engine
  
 > * Click Windows > Asset Management > Profiles
  >> * Local : Editor Hosted
- >> * Remote : Editor Hosted ![This is an image](https://github.com/kahveciozan/ImmerzaContributorDoc/blob/main/AddressableGroupsAndSettings.png)
+ >> * Remote : Editor Hosted ![This is an image](https://github.com/kahveciozan/ImmerzaContributorDoc/blob/main/Img2/AddressableProfiles.png)
  
 > * Click Windows > Asset Management > Settings
  >> * Click Build Remore Catalog
  >> * Build & Load Paths : Remote
  >> * Path Preview
  >>> * Built Path:
- >>> * Load PAth: ![This is an image](https://github.com/kahveciozan/ImmerzaContributorDoc/blob/main/AddressableGroupsAndSettings.png)
+ >>> * Load PAth: ![This is an image](https://github.com/kahveciozan/ImmerzaContributorDoc/blob/main/Img2/AddressableSettings.png)
 
 4. Scene build with Addressable.
  > * Open Addressable Group. Windows > Click Windows > Asset Managemnet > Addressables > Groups
  > * Drag and Drop your scene to Default Local Group.
  > * Click Build > New Build > Default Build Script 
- ![This is an image](https://github.com/kahveciozan/ImmerzaContributorDoc/blob/main/AddressableGroupsAndSettings.png)
+ ![This is an image](https://github.com/kahveciozan/ImmerzaContributorDoc/blob/main/Img2/SceneBuild.gif)
  
-6. Addressables will give 4 files (two .bundle, one json and hash file)![This is an image]![This is an image](https:/)
+6. Addressables will give 4 files (two .bundle, one json and hash file)![This is an image]![This is an image](https://github.com/kahveciozan/ImmerzaContributorDoc/blob/main/Img2/ServerFiles.gif)
 
-7. We can upload these 4 files to the website respectively.![This is an image](https://github.com/kahveciozan/ImmerzaContributorDoc/blob/main/Img/AddressableBuiiltScene.png)
+7. We can upload these 4 files to the website respectively.
 
 ### C. Uploading .bundle files to the website
 1. Go to [Immerza Contributor Website](https://contributor.immerza.com/)
