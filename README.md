@@ -32,7 +32,7 @@ Immerza were created using the Unity3D Game Engine
 3. Click Project Setting.
 > * Project Settings > Player > Other Settings > Deselect Auto Graphics API
 > * Project Settings > Player > Other Settings > Graphics APIs : Remove Vulkan
-> * Project Settings > Player > Other Settings > Target API Level : API Level 23
+> * Project Settings > Player > Other Settings > Target API Level : API Level 29
 > * Project Settings > XR Plug-in Managemnet > Click Install Plugin Management ![This is an image](https://github.com/kahveciozan/ImmerzaContributorDoc/blob/main/Img/XRPlug%C4%B0nManagagement.png)
  >> * Android Settings : Click Oculus
  >> * Windows Settings : Click Oculus
