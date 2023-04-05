@@ -32,7 +32,7 @@ Immerza were created using the Unity3D Game Engine
 3. Click Project Setting.
 > * Project Settings > Player > Other Settings > Deselect Auto Graphics API
 > * Project Settings > Player > Other Settings > Graphics APIs : Remove Vulkan
-> * Project Settings > Player > Other Settings > Target API Level : API Level 29
+> * Project Settings > Player > Other Settings > Minimum API Level : API Level 29
 > * Project Settings > XR Plug-in Managemnet > Click Install Plugin Management ![This is an image](https://github.com/kahveciozan/ImmerzaContributorDoc/blob/main/Img/XRPlug%C4%B0nManagagement.png)
  >> * Android Settings : Click Oculus
  >> * Windows Settings : Click Oculus
@@ -46,7 +46,10 @@ Immerza were created using the Unity3D Game Engine
 
 ### B. Built Your Scene with Addressables
 
-1. Go to Windows > Package Manager. Choose and import Addressables library(Addressable Version 1.19.19.) to your unity project. This is very important to avoid problems loading the scenes. ![This is an image](https://github.com/kahveciozan/ImmerzaContributorDoc/blob/main/Img2/AddressablesInstall.png)
+1. Import Addressables
+> * Go to Windows > Package Manager. 
+> * In the Packages menu, select Unity Registry.
+> * Choose and import Addressables library(Addressable Version 1.19.19.) to your unity project. This is very important to avoid problems loading the scenes. ![This is an image](https://github.com/kahveciozan/ImmerzaContributorDoc/blob/main/Img2/AddressablesInstall.png)
 
 2. Addressable Settings.
 > * Click Windows > Asset Managemnet > Addressables > Groups. 
