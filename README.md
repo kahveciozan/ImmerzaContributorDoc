@@ -22,7 +22,7 @@ Immerza were created using the Unity3D Game Engine
 * Decide in which category you want to create a scene(Focus,Calm or Excitement). Then create the scene you imagine.
 * Review psychology documents according to the needs of your chosen category. For Calm, For Focus, For Excitement.
 
-1. Create Standart Unity 3D Project
+1. Create Unity 3D (URP) Project
 2. Setting up your Project for Mobile VR
 > * Files > Build Settings (Ctrl+Shift+B)
 > * Select Android
@@ -39,12 +39,15 @@ Immerza were created using the Unity3D Game Engine
  >> * Server Settings : Click Oculus
  ![This is an image](https://github.com/kahveciozan/ImmerzaContributorDoc/blob/main/Img/XRDetailsForOculus.png)
  
-4. Create new scene. And name it like this Yourname-Scenename. Example: Actimi-AboveTheClouds
-4. Change the Camera :
+4. Create new scene. And name it like this 
+5. Name your scene uniquely as in the following example. Yourname-Scenename. (Example: Actimi-AboveTheClouds)
+6. Change the Camera :
 > * In Hierarchy, Right click > XR > Convert Main Camera To XR Rig
-5. Now you can desing your original scene. You can add our ready-mate exercises to your own scene. [Prefabs](https://www.exampleprefab.com)
+7. Now you can desing your original scene. You can add our ready-mate exercises to your own scene. [Prefabs](https://www.exampleprefab.com)
 
 ### B. Built Your Scene with Addressables
+
+### [Click here for video explanation](https://drive.google.com/file/d/19uNoAKjbgJdicGTybX_TLvXmk1a8WFW0/view?usp=share_link)
 
 1. Import Addressables
 > * Go to Windows > Package Manager. 
