@@ -2,7 +2,7 @@
 This document is guides designers and developers to contribute to the IMMERZA VR application
 
 Meditation App for Oculus Quest 2 
-![Error](https://github.com/kahveciozan/ImmerzaContributorDoc/blob/main/Immerza.png)
+![Error](https://raw.githubusercontent.com/kahveciozan/ImmerzaContributorDoc/main/ImmerzaLogo.png)
 # What is IMMERZA
 Immerza is a meditation application that aims to be published first on Applab(Sideqestvr.com) and then on Oculus Official Store.Target devices are Oculus Quest and Quest2. Currently, we have decided to consist of 3 main categories. Focus, Calm and Excitement. You can specify ideas for new category ideas. Each part should consist of 2 or 3 different parts(With different environments).
 
