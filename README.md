@@ -1,26 +1,26 @@
-# Contributor Documentation IMMERZA VR
-This document is guides designers and developers to contribute to the IMMERZA VR application
+# Contributor's Guide: IMMERZA VR Application
+Welcome to the IMMERZA VR application contributor's guide! We appreciate your interest in contributing to our project. This guide is designed to assist designers and developers in understanding the project's structure, workflow, and best practices for contributing effectively.
 
-Meditation App for Oculus Quest 2 
 ![Error](https://raw.githubusercontent.com/kahveciozan/ImmerzaContributorDoc/main/ImmerzaLogo.png)
-# What is IMMERZA
-Immerza is a meditation application that aims to be published first on Applab(Sideqestvr.com) and then on Oculus Official Store.Target devices are Oculus Quest and Quest2. Currently, we have decided to consist of 3 main categories. Focus, Calm and Excitement. You can specify ideas for new category ideas. Each part should consist of 2 or 3 different parts(With different environments).
+# Project Overview
+IMMERZA is a meditation application available initially on SideQuest, with plans for launch on Applab and later on the Oculus Official Store. It's compatible with Meta Quest, Quest 2, Quest 3, and Quest Pro devices. IMMERZA offers four main categories: Focus, Calm, Awe, and Motivation, each featuring multiple unique environments to explore.
 
 ### [Immerza Website](https://www.immerza.com/)
 ### [Immerza Contributor Website](https://contributor.immerza.com/)
 
-# Guidelines for Creating Content IMMERZA. Be a Contibutor.
-Immerza were created using the Unity3D Game Engine
+# Content Creation Guidelines for IMMERZA Contributors
+IMMERZA is developed using the Unity3D Game Engine, offering an opportunity for contributors to enhance its content. Here are guidelines to ensure consistency and quality in your contributions:
 
-## How To Create a New Scene and Environment. (You can upload scene in 3 basic steps)
-**A. Create and develop your scene in your own project. (Use Unity Version 2021.3.XX.X)**  <br/>
-**B. Build the scene with Addressables.**  <br/>
-**C. Upload files to the website respectively.**  <br/>
+## Overview of Creating a New Scene. (You can upload scene in 3 basic steps)
+**[STEP-1]: Create and develop your scene in your own project. (Use Unity Version 2022.3.XX.X)**  <br/>
+**[STEP-2]: Build the scene with Addressables.**  <br/>
+**[STEP-3]: Upload files to the website respectively.**  <br/>
 
-### A. Creating and Development in Unity Step by Step
+Now let's move on to the detailed explanation
+---
+### [STEP-1]: Creating and Development in Unity Step by Step
 
-* Decide in which category you want to create a scene(Focus,Calm or Excitement). Then create the scene you imagine.
-* Review psychology documents according to the needs of your chosen category. For Calm, For Focus, For Excitement.
+* Decide in which category you want to create a scene(Focus,Calm,Awe or Motivation). Then create the scene you imagine.
 
 1. Create Unity 3D (URP) Project
 2. Setting up your Project for Mobile VR
@@ -39,23 +39,23 @@ Immerza were created using the Unity3D Game Engine
  >> * Server Settings : Click Oculus
  ![This is an image](https://github.com/kahveciozan/ImmerzaContributorDoc/blob/main/Img/XRDetailsForOculus.png)
  
-4. Create new scene. And name it like this 
-5. Name your scene uniquely as in the following example. Yourname-Scenename. (Example: Actimi-AboveTheClouds)
-6. Change the Camera :
+4. Create new scene. 
+5. Name your scene uniquely as in the following example. Yourname-Scenename. (Example scene naem: Immerza-AboveTheClouds)
+6. Change the Camera for XR:
 > * In Hierarchy, Right click > XR > Convert Main Camera To XR Rig
-7. Now you can desing your original scene. You can add our ready-mate exercises to your own scene. [Prefabs](https://www.exampleprefab.com)
-
-### B. Built Your Scene with Addressables
+7. Now you can desing your original scene.
+---
+### [STEP-2]: Built Your Scene with Addressables
 
 ### [Click here for video explanation](https://drive.google.com/file/d/19uNoAKjbgJdicGTybX_TLvXmk1a8WFW0/view?usp=share_link)
 
 1. Import Addressables
 > * Go to Windows > Package Manager. 
 > * In the Packages menu, select Unity Registry.
-> * Choose and import Addressables library(Addressable Version 1.19.19.) to your unity project. This is very important to avoid problems loading the scenes. ![This is an image](https://github.com/kahveciozan/ImmerzaContributorDoc/blob/main/Img2/AddressablesInstall.png)
+> * Choose and import Addressables library(Addressable Version 1.21.20.) to your unity project. This is very important to avoid problems loading the scenes. ![This is an image](https://github.com/kahveciozan/ImmerzaContributorDoc/blob/main/Img2/AddressablesInstall.png)
 
 2. Addressable Settings.
-> * Click Windows > Asset Managemnet > Addressables > Groups. 
+> * Click Windows > Asset Management > Addressables > Groups. 
  >> * Click Create Addressables Settings
  
 > * Click Windows > Asset Management > Profiles
@@ -75,13 +75,14 @@ Immerza were created using the Unity3D Game Engine
  > * Click Build > New Build > Default Build Script 
  ![This is an image](https://github.com/kahveciozan/ImmerzaContributorDoc/blob/main/Img2/SceneBuild.gif)
  
-6. Addressables will give 4 files (two .bundle, one json and hash file)![This is an image]![This is an image](https://github.com/kahveciozan/ImmerzaContributorDoc/blob/main/Img2/ServerFiles.gif)
+6. Addressables will give 3 files in ProjectFile/ServerData/Android ![This is an image]![This is an image](https://github.com/kahveciozan/ImmerzaContributorDoc/blob/main/Img2/ServerFiles.gif)
 
-7. We can upload these 4 files to the website respectively.
+7. Now We can upload these files to the website respectively.
 
-### C. Uploading .bundle files to the website
+---
+### [STEP-3] Uploading .bundle files to the website
 1. Go to [Immerza Contributor Website](https://contributor.immerza.com/)
-2. Upload these 4 files to the website respectively. >  * ![This is an image](https://github.com/kahveciozan/ImmerzaContributorDoc/blob/main/Img/BuiltFiles.png)
+2. Upload these files to the website respectively. >  * ![This is an image](https://github.com/kahveciozan/ImmerzaContributorDoc/blob/main/Img/BuiltFiles.png)
 > * Find from file location in order. (Go to ...YourUnityProjectRootFile/ServerData)
 > * Upload file in order to website.
 3. Add title and descriptionon website.
@@ -89,32 +90,16 @@ Immerza were created using the Unity3D Game Engine
 
 Thats all.
 
-You can delete the scene at any time or edit it and upload it again
-
-# Development Tools and SDKs
-[Unity3D Game Engine](https://unity.com/) <br/>
-[Oculus Integration SDK](https://assetstore.unity.com/packages/tools/integration/oculus-integration-82022) <br/>
-[Adressable Version 1.19.11.] <br/>
-
 ## Requirements, Consept and Categories
 - Make sure the gameplay length is longer than 3 minutes and less than 12 minutes.
--  Decide what category your target scene will be in. There are 3 category offers from the team but you can feel free either to add a new category or contribute a stage in one existing category. Consider the requirements of the category you choose. psychology documents below.
- > - [FOCUS](https://forms.gle/XvepfJQD45Uu37mT7) <br/>
- > - [CALM](https://forms.gle/XvepfJQD45Uu37mT7) <br/>
- > - [EXCITEMENT](https://forms.gle/XvepfJQD45Uu37mT7) <br/>
-
-- [Consider the COLOUR & LIGHTING](https://forms.gle/XvepfJQD45Uu37mT7) <br/>
-- [Consider the Sound & Music](https://forms.gle/XvepfJQD45Uu37mT7) <br/>
-- [Consider the Mindfulness Principles](https://forms.gle/XvepfJQD45Uu37mT7) <br/>
+-  Decide what category your target scene will be in. There are 4 category offers from the team. You can contribute a scene in one existing category. Consider the requirements of the category you choose.
 
 
 ## Avoid doing these
 - Don't add any C# script. (Addressables don't support extenal code)
 - Don't change any ready prefabs, you can use it in your scene but never change it.
-- Don't call at any time  `Application.Quit()` `SceneManager.LoadScene()` `SceneManager.LoadSceneAsync()`
 - Don't delete or modify any files in the project
 - Don't use coptright audios, logos , 3D models and any assets.
 - Don't use canvas and UI objects.
-- Disable hands and controllers.
 
 
