@@ -3,7 +3,7 @@ Welcome to the IMMERZA VR application contributor's guide! We appreciate your in
 
 ![Error](https://raw.githubusercontent.com/kahveciozan/ImmerzaContributorDoc/main/ImmerzaLogo.png)
 # Project Overview
-IMMERZA is a meditation application available initially on SideQuest, with plans for launch on Applab and later on the Oculus Official Store. It's compatible with Meta Quest, Quest 2, Quest 3, and Quest Pro devices. IMMERZA offers four main categories: Focus, Calm, Awe, and Motivation, each featuring multiple unique environments to explore.
+IMMERZA is a VR App for mood on demand available initially on SideQuest, with plans for launch on Applab and later on the Oculus Official Store. It's compatible with Meta Quest, Quest 2, Quest 3, and Quest Pro devices. IMMERZA offers four main categories: Focus, Calm, Awe, and Motivation, each featuring multiple unique environments to explore.
 
 ### [Immerza Website](https://www.immerza.com/)
 ### [Immerza Contributor Website](https://contributor.immerza.com/)
@@ -45,7 +45,7 @@ Now let's move on to the detailed explanation
 > * In Hierarchy, Right click > XR > Convert Main Camera To XR Rig
 7. Now you can desing your original scene.
 ---
-### [STEP-2]: Built Your Scene with Addressables
+### [STEP-2]: Build Your Scene with Addressables
 
 ### [Click here for video explanation](https://drive.google.com/file/d/19uNoAKjbgJdicGTybX_TLvXmk1a8WFW0/view?usp=share_link)
 
@@ -90,7 +90,7 @@ Now let's move on to the detailed explanation
 
 Thats all.
 
-## Requirements, Consept and Categories
+## Requirements, Conzept and Categories
 - Make sure the gameplay length is longer than 3 minutes and less than 12 minutes.
 -  Decide what category your target scene will be in. There are 4 category offers from the team. You can contribute a scene in one existing category. Consider the requirements of the category you choose.
 
