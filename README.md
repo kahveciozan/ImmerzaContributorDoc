@@ -90,7 +90,7 @@ Now let's move on to the detailed explanation
 
 Thats all.
 
-## Requirements, Conzept and Categories
+## Requirements, Concept and Categories
 - Make sure the gameplay length is longer than 3 minutes and less than 12 minutes.
 -  Decide what category your target scene will be in. There are 4 category offers from the team. You can contribute a scene in one existing category. Consider the requirements of the category you choose.
 
